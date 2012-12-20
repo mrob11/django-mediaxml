@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+{% load mediaxml_tags %}{% autoescape off %}
+<media>
+    {% for file in files %}
+    <file url="" size=""/>
+    {% endfor %}
+</media>
